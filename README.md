@@ -1,6 +1,6 @@
-# **Replace this Project Name** - ReadMe File
+# MI-431 Visual Scripting Creative - ReadMe File
 
-#### Author: *Replace this with your name*
+#### Author: Austin Whitis
 
 ##### Modified: *2024-09-06*
 
