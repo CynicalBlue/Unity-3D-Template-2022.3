@@ -29,8 +29,8 @@ public class UnitMain : MonoBehaviour
         tilemap = Tilemap.FindAnyObjectByType<Tilemap>();
         if (selfNumber == 0)
         {
-            tilePosition = new Vector3Int(2, 1, 0);
-            isTileA = shadowCaster2DCreatorHolder.unit1IsTileA;
+            tilePosition = new Vector3Int(2, 1, 0); // Tiles on tilemaps have their own positions, so their Vector3 is different than the equivalent for GameObjects in the scene
+            isTileA = shadowCaster2DCreatorHolder.unit1IsTileA; // This pulls back the stored tile state from ShadowCaster2DCreator
         }
         if (selfNumber == 1)
         {
@@ -68,7 +68,7 @@ public class UnitMain : MonoBehaviour
                 tilemap.SetTile(tilePosition, isTileA ? tileA : tileB);
                 if (selfNumber == 0)
                 {
-                    shadowCaster2DCreatorHolder.unit1IsTileA = isTileA;
+                    shadowCaster2DCreatorHolder.unit1IsTileA = isTileA; // Stores their tile state to ShadowCaster2DCreator, as this object is destroyed by Create()
                     shadowCaster2DCreatorHolder.unit1CreateReady = true;
                 }
                 if (selfNumber == 1)

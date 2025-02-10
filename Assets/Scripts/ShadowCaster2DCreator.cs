@@ -18,6 +18,7 @@ using System.Linq;using System.Reflection;using UnityEditor;using UnityEngine
 
     private void Update()
     {
+		// If both units have changed their tile image due to their idle animation, remake their shadows
         if (unit1CreateReady && unit2CreateReady)
 		{
 			Create();
@@ -27,6 +28,7 @@ using System.Linq;using System.Reflection;using UnityEditor;using UnityEngine
     }
 
     public void Create()	{		DestroyOldShadowCasters();		tilemapCollider = GetComponent<CompositeCollider2D>();		for (int i = 0; i < tilemapCollider.pathCount; i++)		{			Vector2[] pathVertices = new Vector2[tilemapCollider.GetPathPointCount(i)];			tilemapCollider.GetPath(i, pathVertices);			GameObject shadowCaster = new GameObject("shadow_caster_" + i);			shadowCaster.transform.parent = gameObject.transform;			ShadowCaster2D shadowCasterComponent = shadowCaster.AddComponent<ShadowCaster2D>();			UnitMain unitMainComponent = shadowCaster.AddComponent<UnitMain>();			unitMainComponent.selfNumber = i;
+			// This sets the tiles of the individual shadow_caster_# objects to the correct tiles
             if (i == 0)
             {
 				unitMainComponent.tileA = tileA1;
