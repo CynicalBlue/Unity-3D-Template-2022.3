@@ -1,4 +1,4 @@
-# MI-431 Visual Scripting Creative - ReadMe File
+# MI-431 Project 1 Creative Visual Scripting - ReadMe File
 
 #### Author: Austin Whitis
 
