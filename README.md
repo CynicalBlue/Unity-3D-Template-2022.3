@@ -10,7 +10,7 @@
 **0. What is the link to your project on itch.io?**   
 
 > &nbsp;
-><i>(Just paste the link here.)</i>   
+><i>For 431, we don't use itch.io, so I'm putting the Github link insted.  https://github.com/CynicalBlue/whitisau-MI431-Project-1/edit/main/README.md</i>   
 > &nbsp;
  
 
@@ -18,7 +18,7 @@
 **1. What are the controls to your game? How do we play?**   
 
 > &nbsp;
-><i>(art, music, etc. Just tell us where you got it, link it here)</i>   
+><i>In the Tilemap object child of Grid, go to the ShadowCaster2DCreator script and click the Create button.  Just start the game after that to see it do its thing.</i>   
 > &nbsp;
  
 
@@ -26,7 +26,7 @@
 **2. What creative additions did you make? How can we find them?**   
 
 > &nbsp;
-><i>(If you don't tell us how to experience them, we could easily miss them.)</i>   
+><i>I added tiles that are animated using code, and the ShadowCaster2DCreator now has functionality with animated tiles (if they are done using the same coding method).</i>   
 > &nbsp;
  
 
@@ -34,7 +34,7 @@
 **3. Any assets used that you didn't create yourself?**   
 
 > &nbsp;
-><i>(art, music, etc. Just tell us where you got it, link it here)</i>   
+><i>In the game, I can't actually link to the sprites I used, as they're made by my friend for the game we're currently working on.</i>   
 > &nbsp;
  
 
@@ -42,7 +42,7 @@
 **4. Did you receive help from anyone outside this class or from anyone in this class that is not in a group with you?**   
 
 > &nbsp;
-><i>(list their names and what they helped with)</i>   
+><i>No.</i>   
 > &nbsp;
  
 
@@ -50,7 +50,7 @@
 **5. Did you get help from any AI Code Assistants?**   
 
 > &nbsp;
-><i>(Including things like Chat-GPT, Copilot, etc. Tell us which .cs file to look in for the citation and describe what you learned)</i>   
+><i>Yes.  I used Deepseek for part of the MainUnit.cs script.  I have a large comment body at the bottom of the script detailing all the necessary information.  For what I learned, I learned how to do coding for tiles.  As you can imagine, with the tools Unity gives us, I haven't had to learn the terms and such used when coding tiles, so I learned how that's generally done from the code that Deepseek produced.</i>   
 > &nbsp;
  
 
@@ -58,7 +58,7 @@
 **6. Did you get help from any online websites, videos, or tutorials?**   
 
 > &nbsp;
-><i>(link them here)</i>   
+><i>Main tutorial used: https://youtu.be/n3tgimClTrI?si=GKvcXy56hF6l4R3r    Other tutorials used due to being a part of the main tutorial: https://youtu.be/vN4H7N_k3eg?si=UHq_CiNjKgcB1DMP   https://youtu.be/Jf1w_wUibnA?si=GPqquI09ygnIdTvB</i>   
 > &nbsp;
  
 
@@ -66,7 +66,8 @@
 **7. What trouble did you have with this project?**   
 
 > &nbsp;
-><i>(Even if you didn't complete the project, you can still get partial credit if you tell us about why it's incomplete.)</i>   
+><i>I spent 5-6 hours working on altering the shape and size of the ShadowCaster2Ds only to figure out eventually that I CAN'T.  After looking at several forums, it seems there may be a while to alter them, but by the way it was described, I don't believe they have what I am looking for. 
+ As such, I have a less ambitious creative addition than having the shadows of units grow by .5% for every 1% of said unit's HP loss.</i>   
 > &nbsp;
  
 
@@ -74,7 +75,7 @@
 **8. Is there anything else we should know?**   
 
 > &nbsp;
->*No answer given.*
+>*I think I'm doing the README correctly, but I'm not 100% certain.*
 > &nbsp;
  
 
